@@ -2,7 +2,7 @@ name: e-commerce-store-dev
 services:
   db-users:
     container_name: db-users-dev
-    image: postgres
+    image: postgres:15-alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -17,7 +17,7 @@ services:
 
   db-inventory:
     container_name: db-inventory-dev
-    image: postgres
+    image: postgres:15-alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -32,7 +32,7 @@ services:
 
   db-reviews:
     container_name: db-reviews-dev
-    image: postgres
+    image: postgres:15-alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -47,7 +47,7 @@ services:
 
   db-orders:
     container_name: db-orders-dev
-    image: postgres
+    image: postgres:15-alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
