@@ -83,7 +83,7 @@ flowchart TD
     subgraph Full-Stack Observability
         OtelCollector[OpenTelemetry Collector]
         Prometheus[Prometheus Metrics :9090]
-        Grafana[Grafana Dashboard :3000]
+        Grafana[Grafana Dashboard :3001]
         Loki[Grafana Loki Logs]
         Tempo[Grafana Tempo Tracing]
         Zipkin[Zipkin Traces :9411]
@@ -132,7 +132,7 @@ flowchart TD
 
 The ecosystem comes pre-configured with a production-grade observability stack:
 
-- **Grafana Dashboard:** [http://localhost:3000](http://localhost:3000) (Metrics, Traces & Logs unified dashboard)
+- **Grafana Dashboard:** [http://localhost:3001](http://localhost:3001) (Metrics, Traces & Logs unified dashboard)
 - **Prometheus UI:** [http://localhost:9090](http://localhost:9090) (Application & JVM metrics collection)
 - **Zipkin UI:** [http://localhost:9411](http://localhost:9411) (Distributed call tracing across services)
 - **Eureka Dashboard:** [http://localhost:8761](http://localhost:8761) (Live service heartbeat monitor)

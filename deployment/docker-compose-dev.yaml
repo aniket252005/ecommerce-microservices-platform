@@ -258,7 +258,7 @@ services:
     volumes:
       - ./grafana/grafana-datasources.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
     ports:
-      - "3000:3000"
+      - "3001:3000"
     networks:
       - e-commerce-store-dev
 
