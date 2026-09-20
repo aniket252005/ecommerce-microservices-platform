@@ -1,4 +1,3 @@
-version: '3.8'
 name: e-commerce-store-infra
 services:
   db-users:
